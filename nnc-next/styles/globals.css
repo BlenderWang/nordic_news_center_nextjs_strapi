@@ -1,0 +1,125 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #ededed !important;
+}
+
+body {
+    color: "#4f4f4f !important";
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* loader */
+.loader-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#nautic {
+    fill-opacity: 1;
+    stroke: none;
+    stroke-width: 4.04831;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 4;
+    stroke-dasharray: none;
+    stroke-opacity: 1;
+    transform-origin: center;
+    animation-name: rotate-nautic;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+}
+
+#title {
+    transform-origin: center;
+    animation-name: rotate-title;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4.8s;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6.35003px;
+    line-height: 1.25;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    fill-opacity: 1;
+    stroke: none;
+    stroke-width: 0.264585;
+}
+
+#title path {
+    animation-name: color;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 6.35003px;
+    font-family: Forum;
+    -inkscape-font-specification: Forum;
+    stroke-width: 0.264585;
+}
+
+/* rotate anim */
+@keyframes rotate-nautic {
+    0% {
+        transform: rotate(0deg);
+        fill: #0d47a1;
+    }
+    60% {
+        transform: rotate(180deg);
+        fill: #1565c0;
+    }
+    80% {
+        fill: #1565c0;
+    }
+    100% {
+        transform: rotate(180deg);
+        fill: #0d47a1;
+    }
+}
+
+@keyframes rotate-title {
+    0% {
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: rotate(-180deg);
+    }
+    60% {
+        transform: rotate(-270deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes color {
+    0% {
+        fill: #333333;
+    }
+    70% {
+        fill: #0d47a1;
+    }
+    100% {
+        fill: #333333;
+    }
+}

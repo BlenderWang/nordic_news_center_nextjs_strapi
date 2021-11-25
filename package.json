@@ -1,0 +1,16 @@
+{
+    "name": "nordicnews",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@gitlab.com:maokei/nordicnews.git",
+    "author": "shirley <shirleywang527@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "yarn --cwd nnc-strapi strapi develop",
+        "client": "yarn --cwd nnc-next next dev",
+        "dev": "concurrently \"yarn start\" \"yarn client\""
+    },
+    "devDependencies": {
+        "concurrently": "^6.0.2"
+    }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "category": {
+      "name": "rapport",
+      "slug": "report"
+    },
+    "file": {
+      "path": "assets/icon-file-report.svg"
+    }
+  },
+  {
+    "category": {
+      "name": "forskning",
+      "slug": "research"
+    },
+    "file": {
+      "path": "assets/icon-eyeglass.svg"
+    }
+  },
+  {
+    "category": {
+      "name": "politik",
+      "slug": "politics"
+    },
+    "file": {
+      "path": "assets/marker.svg"
+    }
+  },
+  {
+    "category": {
+      "name": "hälsa",
+      "slug": "health"
+    },
+    "file": {
+      "path": "assets/icon-stethoscope.svg"
+    }
+  },
+  {
+    "category": {
+      "name": "opinion",
+      "slug": "public opinion"
+    },
+    "file": {
+      "path": "assets/pen.svg"
+    }
+  },
+  {
+    "category": {
+      "name": "ekonomi",
+      "slug": "economy"
+    },
+    "file": {
+      "path": "assets/icon-activity.svg"
+    }
+  },
+  {
+    "category": {
+      "name": "globalism",
+      "slug": "globalism"
+    },
+    "file": {
+      "path": "assets/language.svg"
+    }
+  },
+  {
+    "category": {
+      "name": "glada nyheter",
+      "slug": "good news"
+    },
+    "file": {
+      "path": "assets/happy-face.svg"
+    }
+  },
+  {
+    "category": {
+      "name": "konflikt",
+      "slug": "conflict"
+    },
+    "file": {
+      "path": "assets/icon-tank.svg"
+    }
+  },
+  {
+    "category": {
+      "name": "redaktörens val",
+      "slug": "editors choice"
+    },
+    "file": {
+      "path": "assets/star.svg"
+    }
+  }
+]

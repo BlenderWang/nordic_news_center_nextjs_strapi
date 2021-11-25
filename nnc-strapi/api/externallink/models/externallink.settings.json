@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "externallinks",
+  "info": {
+    "name": "Externallink",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {}
+}
